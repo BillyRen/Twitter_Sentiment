@@ -4,11 +4,11 @@ import json
 def main():
     #Read files from command line
     #sent_file = open(sys.argv[1])
-    tweet_file = open(sys.argv[1])
+    #tweet_file = open(sys.argv[1])
     
     #Read files directly
     #sent_file = open("AFINN-111.txt")
-    #tweet_file = open("output_20.txt")
+    tweet_file = open("output_20.txt")
     
     tweet = {}
     tweets = []
