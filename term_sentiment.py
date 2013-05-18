@@ -2,10 +2,10 @@ import sys
 import json
 
 def main():
-    #sent_file = open(sys.argv[1])
-    #tweet_file = open(sys.argv[2])
-    sent_file = open("AFINN-111.txt")
-    tweet_file = open("output_20.txt")
+    sent_file = open(sys.argv[1])
+    tweet_file = open(sys.argv[2])
+    #sent_file = open("AFINN-111.txt")
+    #tweet_file = open("output_20.txt")
     
     scores = {}
     train_scores = {}
@@ -32,7 +32,7 @@ def main():
             total_sents.append(total_sent)
         else:
             total_sents.append(0)
-        print total_sents[i]
+        #print total_sents[i]
         
     for i in range(len(datas)):
         if datas[i].has_key('text') == True:
