@@ -8,6 +8,7 @@ def main():
     #sent_file = open("AFINN-111.txt")
     #tweet_file = open("output_20.txt")
     
+    #To be fixed
     print "LA"
 
 if __name__ == '__main__':
